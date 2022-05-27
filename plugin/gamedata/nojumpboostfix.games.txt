@@ -1,0 +1,107 @@
+"Games"
+{
+	"#default"
+	{
+		"Signatures"
+		{
+			"CreateInterface"
+			{
+				"library"	"server"
+				"windows"	"@CreateInterface"
+				"linux"		"@CreateInterface"
+			}
+		}
+	}
+
+	"csgo"
+	{
+		"Keys"
+		{
+			"NON_JUMP_VELOCITY"	"140.0"
+		}
+
+		"Offsets"
+		{
+			// Virtual function offsets
+
+			"CGameMovement::TryPlayerMove"
+			{
+				"windows"	"42"
+				"linux"		"43"
+			}
+
+			"CGameMovement::StepMove"
+			{
+				"windows"	"72"
+				"linux"		"73"
+			}
+
+
+			// Class member offsets
+
+			"CMoveData::m_vecVelocity"
+			{
+				"windows"	"64"
+				"linux"		"64"
+			}
+
+			"CMoveData::m_outStepHeight"
+			{
+				"windows"	"116"
+				"linux"		"116"
+			}
+
+			"CMoveData::m_vecAbsOrigin"
+			{
+				"windows"	"172"
+				"linux"		"172"
+			}
+		}
+	}
+
+	"cstrike"
+	{
+		"Keys"
+		{
+			"NON_JUMP_VELOCITY"	"140.0"
+		}
+
+		"Offsets"
+		{
+			// Virtual function offsets
+
+			"CGameMovement::TryPlayerMove"
+			{
+				"windows"	"32"
+				"linux"		"33"
+			}
+
+			"CGameMovement::StepMove"
+			{
+				"windows"	"53"
+				"linux"		"54"
+			}
+
+
+			// Class member offsets
+
+			"CMoveData::m_vecVelocity"
+			{
+				"windows"	"64"
+				"linux"		"64"
+			}
+
+			"CMoveData::m_outStepHeight"
+			{
+				"windows"	"100"
+				"linux"		"100"
+			}
+
+			"CMoveData::m_vecAbsOrigin"
+			{
+				"windows"	"152"
+				"linux"		"152"
+			}
+		}
+	}
+}
