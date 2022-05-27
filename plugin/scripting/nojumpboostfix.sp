@@ -10,7 +10,7 @@ public Plugin myinfo =
 	author = "rio",
 	description = "Changes StepMove behavior that generates free Z velocity when moving up an incline",
 	version = "1.0.0",
-	url = "https://github.com/jason-e/no-jump-boost-fix"
+	url = "https://github.com/jason-e/nojump-boost-fix"
 };
 
 float NON_JUMP_VELOCITY;
